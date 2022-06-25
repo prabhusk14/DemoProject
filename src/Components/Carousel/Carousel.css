@@ -1,0 +1,79 @@
+.carousel
+{
+    display: flex;
+  width: 92%; 
+  background-image: linear-gradient(to  right, #3FABB3, #18878E,#462165);
+  height: 250px;
+  margin-left: 4%;
+  margin-top: -100px;
+  border-radius:75px;
+} 
+.circle{
+  width: 200px;
+  height:200px;
+  border:0.5px solid rgba(110, 188, 185, 0.3) ; 
+  margin-top:20px;
+  border-radius: 50%; 
+  background-image: linear-gradient(to bottom right, rgb(51, 49, 112), #18878E,#390563);
+  margin-left: 0;
+}
+.circle2{
+  display: flex;
+  width:150px;
+  height:150px;
+  border:1px solid    rgb(0, 0, 0,0.2) ;
+  margin: 24px;
+  border-radius: 50%;
+  position: relative; 
+
+}
+
+.circle2 img{
+    width: 52px;
+    height: 52px;
+}
+
+.img1{
+  margin-left: -10%;
+  margin-top: 25%;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+}
+.img2{
+    margin-top: -10%;
+    margin-left: 10%;
+}
+
+.img3{
+    margin-top: 25%;
+    margin-left: 20%;
+}
+.img4{
+    margin-top: 80%;
+    margin-left: -120%;
+}
+.img5{
+    margin-top: 80%;
+    margin-left: 30%;
+}
+
+.labels h2{
+    margin-top: 30px;
+    color: white;
+    width: 50%;
+    font-size: 34px;
+    margin-left:8%;
+}
+
+.labels button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    border-radius:10px;
+    margin-left:8%
+}
+ 

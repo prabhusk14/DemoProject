@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+ 
+.card{
+    background-color: white;
+    width: 350px;
+    padding: 15px;
+    height: 370px;
+    padding-left: 35px;
+    padding-top: 60px;
+}
+.card .rect{
+    width: 330px;
+    height: 160px;
+}
+
+.headers{
+    display: flex;
+}
+
+.headers h4{
+    margin-top: -2px;
+    font-family: "Montserrat";
+    font-style: none;
+}
+
+.batch{
+    display: flex;
+    margin-top: -7px;
+    margin-left: 45%;
+}
+.batch span{
+    margin-left: 10pxs;
+    background-color: #DFEEFC;
+    color: #006ED4;
+    height: 20px;
+    padding: 3px;
+    margin: 2px;
+}
+
+.card span{
+    font-family: "Montserrat";
+}
+.card button{
+    font-family: "Montserrat";
+
+}
+.card .blue{
+    font-family: "Montserrat";
+    margin: 0;
+    
+}
+
+.blue{
+    color:#006ED4;
+    width: 270px;
+}
+
+.card h3{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    margin-left: 0px;
+    margin-top: -5px;
+}
+
+.card button{
+    width: 105px;
+    color: black;
+    border: none;
+    font-size: 15px;
+    height: 37px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius:10px ;
+    background-color: aqua;
+}
+
+.sub{
+    font-size: 12px
+}
+
+.raised{ 
+    margin-top: 0; 
+    color: black;
+    font-size: 15px;
+}
+
+.verified{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 10px;
+}
